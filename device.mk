@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/beryllium
+LOCAL_PATH := device/xiaomi/dipper
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 27
