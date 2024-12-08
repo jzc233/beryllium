@@ -19,16 +19,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from beryllium device
-$(call inherit-product, device/xiaomi/beryllium/device.mk)
+$(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := beryllium
-PRODUCT_NAME := twrp_beryllium
+PRODUCT_DEVICE := dipper
+PRODUCT_NAME := twrp_dipper
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Poco F1
+PRODUCT_MODEL := Xiaomi 8
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Bypass anti-rollback ROMs protection
