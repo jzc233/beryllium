@@ -18,5 +18,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_dipper.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_beryllium-userdebug \
-    twrp_beryllium-eng
+    twrp_dipper-userdebug \
+    twrp_dipper-eng
